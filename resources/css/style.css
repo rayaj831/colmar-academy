@@ -78,9 +78,8 @@ header .mobile {
 
 .banner {
 	background-color: rgb(211, 211, 211);
-	justify-content: space-around;
 	max-width: 100%;
-	padding-top: 2rem;
+	padding: 2rem 0 2rem 1.5rem;
 	position: relative;
 	top: 2rem;
 }
@@ -93,15 +92,14 @@ header .mobile {
 	max-width: 100%;
 	height: auto;
 	margin-top: 2rem;
-	margin-bottom: 2rem;
 }
 
 .banner-text {
 	width: 25%;
 	justify-content: center;
 	flex-direction: column;
+	margin-left: 1.5rem;
 }
-
 
 .banner .description {
 	font-size: 1.2rem;
@@ -121,34 +119,34 @@ header .mobile {
 
 /* On Campus Section */
 
-.campus {
+#campus {
 	position: relative;
 	top: 2rem;
-	margin: 2rem 0 2rem 0;
-	justify-content: space-around;
+	margin: 2rem 0 2rem 1.5rem;
+	justify-content: space-between;
 }
 
-.campus .main-content {
+#campus .main-content {
 	max-width: 60%;
 }
 
-.campus img {
+#campus img {
 	max-width: 100%;
 	height: auto;
 	margin-bottom: 2rem;
 }
 
-.campus .description {
+#campus .description {
 	font-weight: 300;
 	margin-bottom: 2rem;
 }
 
-.campus .sidebar {
+#campus .sidebar {
 	max-width: 40%;
 }
 
 /* Online Section */
 
-.online{
+#online{
 	position: relative;
 }
