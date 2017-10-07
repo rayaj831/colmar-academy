@@ -126,7 +126,6 @@ header .mobile {
 	position: relative;
 	top: 2rem;
 	margin: 2rem 0 2rem 1.5rem;
-	justify-content: space-between;
 	max-width: 100%;
 }
 
@@ -138,6 +137,7 @@ header .mobile {
 	max-width: 100%;
 	height: auto;
 	margin-bottom: 2rem;
+	margin-right: 1.5rem;
 }
 
 #campus a {
@@ -151,9 +151,21 @@ header .mobile {
 
 #campus .sidebar {
 	max-width: 40%;
+	flex-direction: column;
+	
 }
 
-.sidebar .mobile {
+#campus .sidebar img {
+	max-width: 35%;
+
+	margin: 1rem;
+}
+
+#campus .highlight {
+	border: 1px solid rgb(220, 220, 220);
+}
+	
+#campus .sidebar .mobile {
 	display: none;
 }
 
