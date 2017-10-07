@@ -3,9 +3,28 @@
 html,body {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
+  color: rgb(60, 60, 60);
 }
 
-/* Header */
+a {
+	text-decoration: none;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 2rem;
+	line-height: 1.2;
+}
+
+.flex {
+	display: flex;
+}
+
+.learn {
+	padding-bottom: 1.5rem;
+}
+
+/* Header Section */
 
 header {
   position: fixed;
@@ -35,7 +54,7 @@ header .name {
 
 header .logo .dark-text {
 	font-weight: 700;
-	color: rgb(105, 105, 105);
+	
 }
 
 header .logo .light-text {
@@ -53,7 +72,6 @@ header nav ul {
 nav a {
   line-height: 1.6;
   font-size: 1rem;
-  text-decoration: none;
   color: #000;
 }
 
@@ -65,7 +83,7 @@ header .mobile {
   display: none;
 }
 
-/* Banner */
+/* Banner Section */
 
 .banner {
 	background-color: rgb(211, 211, 211);
@@ -86,7 +104,6 @@ header .mobile {
 	height: auto;
 	margin-top: 2rem;
 	margin-bottom: 2rem;
-	
 }
 
 .banner-text {
@@ -96,22 +113,53 @@ header .mobile {
 	flex-direction: column;
 }
 
-.banner .learn {
-	font-weight: 700;
-	font-size: 2rem;
-	padding-bottom: 1.5rem;
-	line-height: 1.2;
-}
 
 .banner .description {
+	font-size: 1.2rem;
+	font-weight: 500;
 	padding-bottom: 1.5rem;
 	line-height: 1.4;
 }
 
 .banner .button {
 	color: rgb(255, 255, 255);
-	background-color: rgb(105, 105, 105);
+	background-color: rgb(60, 60, 60);
 	line-height: 1.4;
+	font-weight: 300;
 	padding: .5rem 4rem;
 	text-align: center;
+}
+
+/* On Campus Section */
+
+.campus {
+	position: relative;
+	top: 2rem;
+	margin: 2rem 0 2rem 0;
+	justify-content: space-around;
+}
+
+.campus .main-content {
+	max-width: 60%;
+}
+
+.campus img {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 2rem;
+}
+
+.campus .description {
+	font-weight: 300;
+	margin-bottom: 2rem;
+}
+
+.campus .sidebar {
+	max-width: 40%;
+}
+
+/* Online Section */
+
+.online{
+	position: relative;
 }
