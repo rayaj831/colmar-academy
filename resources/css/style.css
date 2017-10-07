@@ -201,7 +201,15 @@ header .mobile {
 	top: 2rem;
 }
 
+#online img {
+	width: 100%;
+	height: auto;
+}
 
+#online .course {
+	margin: 2rem;
+	max-width: 33%;
+}
 
 #online .mobile {
 	display: none;
