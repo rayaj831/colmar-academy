@@ -140,6 +140,10 @@ header .mobile {
 	margin-bottom: 2rem;
 }
 
+#campus a {
+	color: rgb(135, 206, 250);
+}
+
 #campus .description {
 	font-weight: 300;
 	margin-bottom: 2rem;
