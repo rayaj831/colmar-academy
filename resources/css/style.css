@@ -29,6 +29,19 @@ header .logo {
   font-size: 2rem;
 }
 
+header .name {
+	display: flex;
+}
+
+header .logo .dark-text {
+	font-weight: 700;
+	color: #696969;
+}
+
+header .logo .light-text {
+	color: #A9A9A9;
+}
+
 header img {
   width: 2.5rem;
 }
@@ -51,3 +64,6 @@ nav li {
 header .mobile {
   display: none;
 }
+
+/* Banner */
+
