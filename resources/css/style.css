@@ -16,7 +16,7 @@ h1 {
 	line-height: 1.2;
 }
 
-h3 {
+h2 {
 	font-size: 1.2rem;
 	font-weight: 500;
 	line-height: 1.4;
@@ -131,6 +131,7 @@ header .mobile {
 
 #campus .main-content {
 	max-width: 60%;
+	margin-right: 1.5rem;
 }
 
 #campus img {
@@ -144,6 +145,14 @@ header .mobile {
 	color: rgb(135, 206, 250);
 }
 
+#campus a:hover {
+	color: rgb(0, 191, 255);
+}
+
+#campus a:visited {
+	color: rgb(173, 216, 230);
+}
+
 #campus .description {
 	font-weight: 300;
 }
@@ -152,15 +161,15 @@ header .mobile {
 	margin-bottom: 2rem;
 }
 
+
 #campus .sidebar {
 	max-width: 40%;
+	height: 100%;
 	flex-direction: column;
-	
 }
 
 #campus .sidebar img {
 	max-width: 35%;
-
 	margin: 1rem;
 }
 
@@ -169,20 +178,31 @@ header .mobile {
 	align-items: center;
 }
 
+#campus .highlight:hover {
+	background-color: rgba(211, 211, 211, 0.7);
+}
+
 #campus .highlight .description {
 	margin: .5rem 0;
 }
 
-	
-#campus .sidebar .mobile {
+#campus .mobile {
 	display: none;
 }
 
 /* Online Section */
 
-#online{
+#online {
 	position: relative;
+	flex-direction: column;
+	align-items: center;
 	padding: 2rem 4.5rem;
 	background-color: rgb(220, 220, 220);
 	top: 2rem;
+}
+
+
+
+#online .mobile {
+	display: none;
 }
