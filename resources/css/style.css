@@ -146,6 +146,9 @@ header .mobile {
 
 #campus .description {
 	font-weight: 300;
+}
+
+#campus .main-content .description {
 	margin-bottom: 2rem;
 }
 
@@ -163,7 +166,13 @@ header .mobile {
 
 #campus .highlight {
 	border: 1px solid rgb(220, 220, 220);
+	align-items: center;
 }
+
+#campus .highlight .description {
+	margin: .5rem 0;
+}
+
 	
 #campus .sidebar .mobile {
 	display: none;
