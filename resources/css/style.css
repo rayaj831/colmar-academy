@@ -57,7 +57,6 @@ header .logo {
   font-size: 2rem;
 }
 
-
 header .logo .dark-text {
 	font-weight: 700;
 }
@@ -240,5 +239,91 @@ header .mobile {
 
 /* Thesis Section */
 
+#thesis {
+	position: relative;
+	top: 2rem;
+	flex-direction: column;
+	align-items: center;
+	margin: 2rem 0 2rem 1.5rem;
+	max-width: 100%;
+}
 
+#thesis .lead {
+	text-align: center;
+	margin: 1rem 0 2rem 0;
+}
 
+#thesis .description {
+	font-weight: 300;
+}
+
+#thesis .main-content {
+	max-width: 60%;
+	margin-right: 1.5rem;
+}
+
+#thesis video {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 2rem;
+	margin-right: 1.5rem;
+}
+
+#thesis h2 {
+	margin-bottom: .5rem;
+}
+
+#thesis .exhibit {
+	flex-direction: column;
+	max-width: 40%;
+	margin-top: -0.35rem;
+}
+
+#thesis .exhibit img {
+	max-width: 35%;
+	margin: 1rem;
+}
+
+#thesis .exhibit .highlight{
+	max-height: 33%;
+	align-items: center;
+}
+
+#thesis .exhibit .highlight:hover {
+	background-color: rgba(211, 211, 211, 0.7);
+}
+
+/* Footer Section */
+
+footer {
+	position: relative;
+	top: 1rem;
+	width: 100%;
+	border-top: 1px solid rgb(220, 220, 220);
+	height: 4rem;
+}
+
+footer .content {
+  align-items: center;
+  padding: 0.5rem 1.5rem;
+}
+
+footer .name {
+  flex: 1;
+  align-items: center;
+  font-size: 0.75rem;
+}
+
+footer nav a {
+  line-height: 1.6;
+  font-size: 0.75rem;
+  color: rgb(60, 60, 60);
+}
+
+footer nav li {
+  padding-left: 1rem;
+}
+
+header .mobile {
+  display: none;
+}
