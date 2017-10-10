@@ -22,6 +22,11 @@ h2 {
 	line-height: 1.4;
 }
 
+h3 {
+	color: 	rgb(169, 169, 169);
+	line-height: 1.2;
+}
+
 .flex {
 	display: flex;
 }
@@ -201,16 +206,39 @@ header .mobile {
 	top: 2rem;
 }
 
+#online .desktop {
+	justify-content: space-evenly;
+}
+
 #online img {
 	width: 100%;
 	height: auto;
 }
 
 #online .course {
-	margin: 2rem;
-	max-width: 33%;
+	background-color: rgb(255, 255, 255);
+	margin: 2rem 1rem;
+	max-width: 30%;
+}
+
+#online .course-text {
+	padding: 2rem;
+}
+
+#online h3 {
+	padding: 0.75rem 0;
+}
+
+#online .description {
+	color: 	rgb(169, 169, 169);
+	line-height: 1.4rem;
 }
 
 #online .mobile {
 	display: none;
 }
+
+/* Thesis Section */
+
+
+
