@@ -388,7 +388,6 @@ footer nav li {
 	#campus {
 		margin: 0;
 		width: 100%;
-		border-bottom: 1px solid rgb(220, 220, 220);
 	}
 	
 	#campus .mobile {
@@ -413,4 +412,36 @@ footer nav li {
 		flex-direction: column;
 		margin: 2rem 1rem;
 	}
+	
+	/* Mobile Online Section */
+	#online {
+		background-color: rgb(255, 255, 255);
+		border-top: 1px solid rgb(220, 220, 220);
+		border-bottom: 1px solid rgb(220, 220, 220);
+		padding: 2rem 0;
+	}
+	
+	#online .mobile {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+	
+	#online h1 {
+		padding-bottom: 1rem;
+	}
+	
+	#online h2 {
+		font-size: 1.5rem;
+	}
+	
+	#online .course-name {
+		background-color: rgb(211, 211, 211);
+		max-width: 90%;
+		margin: 0.5rem 1rem;
+		padding: 1rem 0 1rem 1rem;
+	}
+	
+	/* Mobile Thesis Section */
+	
 }
