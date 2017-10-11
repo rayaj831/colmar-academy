@@ -325,7 +325,7 @@ footer nav li {
 }
 
 /* Mobile Section */
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 450px) {
 	/* Mobile Universal Styles */
 	.desktop {
 		display: none;
@@ -354,8 +354,11 @@ footer nav li {
 		padding: 0;
 		width: 100%;
 	}
-
 	
+	nav li {
+		padding: 0;
+	}
+
 
 	/* Mobile Banner Section */
 	.banner {
