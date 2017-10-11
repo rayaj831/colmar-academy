@@ -326,6 +326,11 @@ footer nav li {
 
 /* Mobile Section */
 @media only screen and (max-width: 470px) {
+	/* Mobile Universal Styles */
+	.desktop {
+		display: none;
+	}
+	
 	
 	/* Mobile Header Section */
 	header {
@@ -350,10 +355,40 @@ footer nav li {
 		width: 100%;
 	}
 
-	header .desktop {
-		display: none;
+	
+
+	/* Mobile Banner Section */
+	.banner {
+		display: block;
+		padding: 0 0 2rem 0;
+		width: 100%;
+	}
+	
+	.banner-image {
+		max-width: 100%;
 	}
 
+	.banner-text {
+		width: 80%;
+		margin: 0;
+		padding: 1rem 1rem 0 2rem;
+	}
+	
+	.banner .button {
+	color: rgb(255, 255, 255);
+	background-color: rgb(169, 169, 169);
+	line-height: 1.4;
+	font-weight: 500;
+	padding: .5rem 2.5rem;
+	text-align: center;
+	
+}
 
-
+	
+	/* Mobile Campus Section */
+	
+	#campus .mobile {
+		display: flex;
+		border: 0;
+	}
 }
