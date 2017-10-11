@@ -177,12 +177,12 @@ header .mobile {
 	margin: 1rem;
 }
 
-#campus .highlight {
+#campus .desktop .highlight {
 	border: 1px solid rgb(220, 220, 220);
 	align-items: center;
 }
 
-#campus .highlight:hover {
+#campus .desktop .highlight:hover {
 	background-color: rgba(211, 211, 211, 0.7);
 }
 
@@ -381,14 +381,36 @@ footer nav li {
 	font-weight: 500;
 	padding: .5rem 2.5rem;
 	text-align: center;
-	
 }
-
 	
 	/* Mobile Campus Section */
 	
+	#campus {
+		margin: 0;
+		width: 100%;
+		border-bottom: 1px solid rgb(220, 220, 220);
+	}
+	
 	#campus .mobile {
-		display: flex;
+		display: block;
 		border: 0;
+	}	
+	
+	#campus .sidebar {
+		max-width: 100%
+	}
+	
+	#campus .sidebar img {
+		max-width: 100%;
+		margin: 0;
+	}
+	
+	#campus .highlight {
+		margin: 1rem;
+	}
+	
+	#campus .info-text {
+		flex-direction: column;
+		margin: 2rem 1rem;
 	}
 }
